@@ -29,9 +29,9 @@ $(".row div").on("click", function(){             //does stuff when user clicks:
 //DEFINE FUNCTIONS**************************
 
 function startGame() {
-$(document).on("click", function(){
+$("body").on("click", function(){
     newSequence();
-    $(document).off("click");
+    $("body").off("click");
     console.log(event);
 });
 }
