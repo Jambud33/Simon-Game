@@ -86,7 +86,7 @@ function checkAnswer(currentLevel){
             //if the user's selection [currentLevel] does not match the gamePattern[currentLevel], game over 
             else {
             gameOverSound.play();
-            $("h1").text("Game Over. You made it to level "+i+ ". Press any key to restart.");
+            $("h1").text("Game Over. You made it to level "+i+ ". Double click anywhere on screen to restart.");
             $("body").addClass("game-over");
             setTimeout( function(){
                 $("body").removeClass("game-over");
